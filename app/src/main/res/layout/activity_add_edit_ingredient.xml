@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Ingredient"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/edtIngredientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingredient Name"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/edtUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unit (e.g. g, kg, ml, L)"
+        android:inputType="text"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnSaveIngredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Ingredient" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+</LinearLayout>
